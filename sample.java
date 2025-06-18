@@ -17,15 +17,6 @@ public class sample {
 				System.out.print(c);
 				i = fr.read();
 			}
-		}catch(IOException e) {
-			System.out.println("エラーが発生");
-		}finally {
-			//最後に閉じる！！！
-			try {
-				fr.close();
-			} catch (IOException e) {
-				System.out.println("閉じるの失敗！");
-			}
 		}
 	}
 
